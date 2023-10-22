@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up info</title>
+</head>
+<body>
+  <h1><strong>Let's sign up!!!!</strong></h1>
+  <hr>
+  <form>
+<!-- pernsonal info -->
+  <h2>Personal information</h2>
+  <label for="name">Name:</label><input type="text" placeholder="Name" name="name" id="name"><br><br>
+  <label for="email">Email:</label><input type="email" placeholder="Email" name="email" id="email"><br><br>
+  <label for="password">Password:</label><input type="password" placeholder="Password" name="password" id="password"><br><br>
+  <label for="password">Confirm Password:</label><input type="password" placeholder="Confirm Password" name="password" id="password"><br><br>
+  <label for="gender">Gender: </label>
+  <label><input type="radio" name = "gender">Male </label>
+  <label><input type = "radio" name="gender">Female </label>
+  <label><input type = "radio" name="gender">Walmart Bag</label>
+  <br><br>
+  <label for="city">Current Lived City:</label>
+  <select name ="city" id ="city">
+    <option value ="">--Select a city--</option>
+    <option value="SG">Singapore</option>
+    <option value="Korea">Korea</option>
+    <option value="Japan">Japan</option>
+    <option value="China">China</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="Australia">Australia</option>
+    <option value="Others">Others</option>
+  </select><br>
+  <br><br>
+  <!-- Educantional Background -->
+  <h2>Educational Background</h2>
+  <label for="edu">Highest Education Level: </label>
+  <select name="edu" id="edu">
+    <option value="">--Select a level--</option>
+    <option value="Primary">Primary</option>
+    <option value="Secondary">Secondary</option>
+    <option value="Junior College">Junior College</option>
+    <option value="Polytechnic">Polytechnic</option>
+    <option value="University">University</option>
+    <option value="Others">Others</option>
+  </select><br><br>
+  <label for="school">School: </label><input type="text" placeholder="School" name="school" id="school"><br><br>
+  <label for="major">Major: </label><input type="text" placeholder="Major" name="major" id="major"><br><br>
+  <label for="time">Year of study: </label>
+  <select name ="time">
+    <option value="">--Select a year--</option>
+    <option value="1">2015</option>
+    <option value="2">2016</option>
+    <option value="3">2017</option>
+    <option value="4">2018</option>
+    <option value="5">2019</option>
+    <option value="6">2020</option>
+    <option value="7">2021</option>
+    <option value="8">2022</option>
+    <option value="9">2023</option>
+    <option value="10">2024</option>
+    <option value="11">2025</option>
+    <option value="12">2026</option>
+  </select>
+  ----
+  <select name ="time">
+    <option value="">--Select a year--</option>
+    <option value="1">2015</option>
+    <option value="2">2016</option>
+    <option value="3">2017</option>
+    <option value="4">2018</option>
+    <option value="5">2019</option>
+    <option value="6">2020</option>
+    <option value="7">2021</option>
+    <option value="8">2022</option>
+    <option value="9">2023</option>
+    <option value="10">2024</option>
+    <option value="11">2025</option>
+    <option value="12">2026</option>
+  </select><br><br>
+  <!-- Work Experience -->
+  <h2>Work Experience</h2>
+  <label for="company">Company: </label><input type="text" placeholder="Company" name="company" id="company"><br><br>
+  <label for="position">Position: </label><input type="text" placeholder="Position" name="position" id="position"><br><br>
+  <label for="jbd">Job Description: </label><br>
+  <textarea name="jbd" id="jbd" cols="30" rows="10"></textarea><br><br>
+  <!-- Aggrement -->
+  <input type="checkbox" name="aggrement" id="aggrement"><label for="aggrement">I agree to the terms and conditions</label><br><br>
+  <ul>
+    <li><a href="#">User Agreement</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+  </ul>
+  <br><br>
+  <button>Sign up free</button>
+  <button type="reset">Cancel all</button>
+  </form> 
+</body>
+</html>
