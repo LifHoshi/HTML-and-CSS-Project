@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sina News</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .newsBox {
+      margin: 200px auto;
+      width: 360px;
+      height: 186px;
+
+    }
+
+    .newsBox .hd {
+      height: 34px;
+      background-color: #eee;
+      border: 1px solid #dbdee1;
+      border-left: none;
+    }
+
+    .newsBox .hd a {
+      margin-top: -1px;
+      border-top: 3px solid #ff8400;
+      border-right: 1px solid #dbdee1;
+
+      display: block;
+      width: 48px;
+      height: 34px;
+
+      background-color: #fff;
+      font-size: 14px;
+      color: #333;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    .newsBox .bd {
+      padding-left: 5px;
+      padding-top: 5px;
+    }
+
+    .newsBox .bd li {
+      padding-left: 15px;
+      background-image: url(./images/square.jpg);
+      background-repeat: no-repeat;
+      background-size: 5px 5px;
+      background-position: 0 center;
+    }
+
+    .newsBox .bd li a{
+      padding-left: 20px;
+      background-image: url(./images/thumbnail.jpg);
+      background-repeat: no-repeat;
+      background-position: 0 center;
+      background-size: 10px 10px;
+
+      font-size: 12px;
+      color: #666;
+
+      line-height: 24px
+    }
+
+    .newsBox .bd li a:hover{
+      color: #ff8400;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="newsBox">
+    <div class="hd"><a href="#">News</a></div>
+    <div class="bd">
+      <ul>
+        <li><a href="#">Japanese PM vows tax revenue return with income tax</a></li>
+        <li><a href="#">Death toll of Palestinians from Israeli airstrikes on Gaz..</a></li>
+        <li><a href="#">Mediation to release Hamas-held dual nationality</a></li>
+        <li><a href="#">Israeli defense minister says ground operation in Gaza</a></li>
+        <li><a href="#">Israel mounts limited ground raids into Gaza</a></li>
+        <li><a href="#">Bear attacks in Japan increase at unprecedented pace</a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
+</html>
