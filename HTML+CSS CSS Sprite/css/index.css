@@ -1,0 +1,50 @@
+.service {
+    width: 1190px;
+    height: 42px;
+    /* background-color: pink; */
+    margin: 40px auto;
+}
+
+.service ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service li {
+  padding-left: 40px;
+  width: 297px;
+  height: 42px;
+  /* background-color: brown; */
+}
+
+.service li a {
+  display: flex;
+  align-items: center;
+}
+
+.service li h5 {
+  margin-right: 5px;
+  width: 36px;
+  height: 42px;
+  /* background-color: blue; */
+  background-image: url(../images/sprite.png);
+  background-position: 0 -192px;
+}
+
+.service li:nth-child(2) h5 {
+  background-position: -41px -192px;
+}
+
+.service li:nth-child(3) h5 {
+  background-position: -82px -192px;
+}
+
+.service li:nth-child(4) h5 {
+  background-position: -123px -192px;
+}
+
+.service li p{
+  font-size: 18px;
+  color: #444;
+  font-weight: 700;
+}
