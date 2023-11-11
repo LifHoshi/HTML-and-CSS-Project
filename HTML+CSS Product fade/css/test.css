@@ -1,0 +1,81 @@
+.content {
+    position: relative;
+    margin: 10px auto;
+    width: 480px;
+    height: 500px;
+    /* background-color: pink; */
+    border-radius: 18px;
+    overflow: hidden;
+    /* box-shadow: 2px 4px 12px rgba(0,0,0,.08); */
+}
+
+.content .text {
+  position: absolute;
+  left: 0;
+  top: -50px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s;
+}
+
+.content .text h4{
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 600;
+    color: #6e6e73;
+    width: 204px;
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+.text h3 {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    margin-left: 16px;
+    margin-top: 8px;
+    color: #1d1d1f;
+}
+
+.text p {
+  font-size: 17px;
+  line-height: 1.47059;
+  font-weight: 400;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.text p span {
+  color: #9b4545;
+  font-size: 14px;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 480px;
+  height: 500px;
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.6));
+  opacity: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.content:hover .pic img {
+  transform: scale(1.2);
+}
+
+.content .pic img {
+  transition: all 0.5s;
+}
+
+.content:hover .mask {
+  opacity: 1;
+}
+
+.content:hover .text {
+  transform : translateY(50px);
+}
